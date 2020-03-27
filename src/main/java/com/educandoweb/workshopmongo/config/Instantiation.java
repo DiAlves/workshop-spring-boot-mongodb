@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 import com.educandoweb.workshopmongo.domain.User;
 import com.educandoweb.workshopmongo.repository.UserRepository;
 
+//Vai deletar tudo do banco e incluir os objetos instanciados
+
 @Configuration
 public class Instantiation implements CommandLineRunner {
 
